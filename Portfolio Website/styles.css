@@ -1,0 +1,22 @@
+/*"StAuth10244: I Samuel Spiers, 000731023 certify that this material is my original work. No other person's work has been used without due acknowledgement. I have not made my work available to anyone else."*/
+header {
+    height: 130vh;
+    background-image: url("circuitboard.jpg");
+}
+
+#canvas {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    height: 200vh;
+    background-image: url("circuitboard.jpg");
+}
+
+#profileHeader {
+    font-family: 'Bungee', sans-serif;
+    font-size: 5vw;
+    letter-spacing: 10px;
+    text-shadow: 4px 4px 4px rgba(0, 0, 0, 1);
+}
