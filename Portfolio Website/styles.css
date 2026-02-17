@@ -6,7 +6,6 @@ header {
 
 #canvas {
     height: 100%;
-    width: 100%;
 }
 
 body {
@@ -14,18 +13,30 @@ body {
     background-image: url("circuitboard.jpg");
 }
 
-#profile-header {
+.section-header {
     font-family: 'Bungee', sans-serif;
     letter-spacing: 10px;
-    text-shadow: 5px 5px 5px rgba(0, 0, 0, 1);
+    text-shadow: 10px 10px 5px rgba(0, 0, 0, 1);
+    font-size: 6vw;
+    text-align: center;
+    color: whitesmoke;
 }
 
-#portrait-holder {
+.portrait-holder {
     max-width: 50%;
 }
 
-#profile-text {
+.profile-text {
     font-family: 'Bungee', sans-serif;
     text-shadow: 5px 5px 5px rgba(0, 0, 0, 1);
-    font-size: 1.5vw;
+    font-size: clamp(12px, 1.9vw, 40px);
+}
+
+.gallery-item {
+    width: 400px;
+    height: 400px;
+    background-color: aliceblue;
+    border: 3px solid red;
+    border-radius: 15px;
+    margin: auto;
 }
