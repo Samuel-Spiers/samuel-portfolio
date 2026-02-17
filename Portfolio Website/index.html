@@ -11,8 +11,8 @@
         <script src="scripts.js" defer></script>
         <title>Samuel's Portfolio</title>
     </head>
-    <header class="bg-secondary">
-        <svg id="canvas" width="100vw" height="110vh">
+    <header>
+        <svg id="canvas" width="100%" height="110vh">
             <rect x="0" y="0" width="100%" height="100vh" fill="skyblue"/>
             <rect x="0" y="75vh" width="100%" height="25vh" fill="rgb(81, 133, 33)"/>
             <text fill="rgb(68, 68, 68)" font-size="9vw" font-family="Pacifico" text-anchor="middle" x="50%" y="75vh">I am Samuel Spiers</text>         
@@ -32,7 +32,7 @@
             <rect x="75vw"   y="93vh" width="2.1vw"   height="11vh" fill="saddlebrown"/><rect x="77vw"   y="96vh" width="4.1vw"   height="9vh"  fill="saddlebrown"/>
             <rect x="81vw"   y="91vh" width="5.1vw"   height="13vh" fill="saddlebrown"/><rect x="86vw"   y="98vh" width="4.1vw"   height="8vh"  fill="saddlebrown"/>
             <rect x="90vw"   y="94vh" width="3.1vw"   height="10vh" fill="saddlebrown"/><rect x="93vw"   y="92vh" width="4.1vw"   height="12vh" fill="saddlebrown"/>
-            <rect x="97vw"   y="98vh" width="3vw"   height="8vh"  fill="saddlebrown"/>
+            <rect x="97vw"   y="98vh" width="2.1vw"   height="8vh"  fill="saddlebrown"/>
             <!--Dirt transition end-->
             <!--Rock transition-->
             <rect x="0vw"    y="112vh" width="3.1vw"   height="14vh" fill="dimgrey"/><rect x="3vw"    y="109vh" width="4.1vw"   height="17vh" fill="dimgrey"/>
@@ -49,23 +49,27 @@
             <rect x="75vw"   y="111vh" width="2.1vw"   height="17vh" fill="dimgrey"/><rect x="77vw"   y="112vh" width="4.1vw"   height="14vh" fill="dimgrey"/>
             <rect x="81vw"   y="110vh" width="5.1vw"   height="17vh" fill="dimgrey"/><rect x="86vw"   y="117vh" width="4.1vw"   height="12vh" fill="dimgrey"/>
             <rect x="90vw"   y="112vh" width="3.1vw"   height="14vh" fill="dimgrey"/><rect x="93vw"   y="109vh" width="4.1vw"   height="17vh" fill="dimgrey"/>
-            <rect x="97vw"   y="116vh" width="3vw"   height="11vh" fill="dimgrey"/>
+            <rect x="97vw"   y="116vh" width="2.1vw"   height="11vh" fill="dimgrey"/>
             <!--Rock transition end-->
         </svg>
     </header>
     <body class="container-fluid px-0">
-        <div class="row">
+        <div class="row w-100">
                 <h1 id='profile-header' class="text-light text-center m-5">Who I Am</h1>
         </div>
-        <div class="row align-items-center">
-            <div class="col-2"></div>
-            <div class="col-2 text-center p-3 bg-dark rounded-start-circle rounded-end-5">
-                <img class="img-fluid rounded-circle" src="portrait.jpg" alt="Portrait of Samuel Spiers">
+        <div class="row w-100">
+            <div class="col-1"></div>
+            <div class="col-10 p-3 bg-dark rounded-pill">
+                <div class="row w-100 align-items-center">
+                    <div id="portrait-holder" class="col-4">
+                        <img class="img-fluid rounded-circle float-left" src="portrait.jpg" alt="Portrait of Samuel Spiers">
+                    </div>
+                    <div class="col-8">
+                        <p id="profile-text" class="text-light">Hi! I'm Samuel Spiers. I am a novice software developer in my 4th semester of the Computer Systems Technology - Software Development Advanced Diploma at Mohawk College.</p>
+                    </div>
+                </div>
             </div>
-            <div id="profile-text" class="col-6 text-light d-block fs-3 p-3 bg-dark rounded-end-5">
-                <p>Hi! I'm Samuel Spiers. I am a novice software developer in my 4th semester of the Computer Systems Technology - Software Development Advanced Diploma at Mohawk College.</p>
-            </div>
-            <div class="col-2"></div>
+            <div class="col-1"></div>
         </div>
     </body>
 </html>

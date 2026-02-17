@@ -20,8 +20,8 @@ body {
     text-shadow: 5px 5px 5px rgba(0, 0, 0, 1);
 }
 
-#portrait {
-    width: 1.5vw;
+#portrait-holder {
+    max-width: 50%;
 }
 
 #profile-text {
