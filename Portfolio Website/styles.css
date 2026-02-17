@@ -27,9 +27,9 @@ body {
     filter: sepia(50%);
 }
 
-.profile-text {
-    font-family: 'Bungee', sans-serif;
-    text-shadow: 5px 5px 5px rgba(0, 0, 0, 1);
+.section-text {
+    font-family: 'Audiowide', sans-serif;
+    text-shadow: 5px 5px 2px rgba(0, 0, 0, 1);
     font-size: clamp(12px, 1.9vw, 40px);
 }
 
