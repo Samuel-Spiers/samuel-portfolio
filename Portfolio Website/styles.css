@@ -34,10 +34,15 @@ body {
 }
 
 .gallery-item {
-    width: 400px;
-    height: 400px;
+    width: 20vw;
+    height: 20vw;
     background-color: aliceblue;
     border: 3px solid red;
     border-radius: 15px;
     margin: auto;
+    transition: transform 0.2s ease-in-out
+}
+
+.gallery-item:hover {
+    transform: scale(1.2);
 }
