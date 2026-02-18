@@ -47,16 +47,34 @@ body {
     color: whitesmoke;
 }
 
+.button-text {
+    font-family: 'Audiowide', sans-serif;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 1);
+    font-size: clamp(12px, 1.5vw, 40px);
+    color: rgb(39, 39, 39);
+}
+
 .gallery-item {
     width: 20vw;
     height: 20vw;
     background-color: darkgrey;
     border: 3px solid red;
-    border-radius: 15px;
     margin: auto;
-    transition: transform 0.2s ease-in-out
+    transition: transform 0.2s ease-in-out;
+    overflow: hidden;
 }
 
 .gallery-item:hover {
+    transform: scale(1.2);
+}
+
+.social-link {
+    width: 8vw;
+    margin: 0px 1vw 0px 1vw;
+    padding: 1vw 0px 1vw 0px;
+    transition: transform 0.2s ease-in-out
+}
+
+.social-link:hover {
     transform: scale(1.2);
 }
