@@ -1,4 +1,8 @@
 /*"StAuth10244: I Samuel Spiers, 000731023 certify that this material is my original work. No other person's work has been used without due acknowledgement. I have not made my work available to anyone else."*/
+html, body {
+    overflow-x: hidden;
+}
+
 header {
     height: 130vh;
     background-image: url("circuitboard.jpg");
@@ -28,7 +32,7 @@ body {
     font-size: 4vw;
     text-align: center;
     color: whitesmoke;
-    vertical-align: middle;
+    margin-top: 10px;
 }
 
 .portrait-holder {
